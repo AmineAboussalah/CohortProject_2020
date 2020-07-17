@@ -6,16 +6,21 @@ To complement the technical tasks, please consdier the four questions below.
 You are free to format your response to these four questions as you wish (with the final question done as a short recorded video), and to include
 the content (or links to the content) on your forked repository.
 
-A brief example for each question is included for the 
-[Traveling Salesman Problem.](https://en.wikipedia.org/wiki/Travelling_salesman_problem)
-
 ## Step 1: Explain the technical problem you solved in this exercise
 
-Example: Finding a global minimum in settings where a classical approach may not be able to find a global minimum.
+-	One of the fundamental technical challenges in physics and chemistry is to accurately calculate the PES for small molecules. Although there exists some approximation techniques using classical computational methods, these are limited to cases that have less bonds (i.e. 1 or 2 bonds such as LiH and H4 respectively) and for weakly correlated systems. 
+-	But why do we need PES in the first place? Through the accurate computing of PES value, we can control many real world applications such as the breaking of N2 bonds to make NH_3. Subsequently, the breaking of the NH3 bonds can serve the agricultural sector in producing fertilizers while the energy released from the bond-breaking process can be employed to supply energy demand. 
+-	The importance of quantum computing lies in the ability to accurately compute PES for small molecules with highly correlated electronic structure systems while reducing time complexity, which is deemed essential in real world applications. 
+
 
 ## Step 2: Explain or provide examples of the types of real-world problems this solution can solve
+ (Maybe we may still need to add one or two sentences explaining potential benefits under each bullet) 
+-	Energy sector through generating energy from breaking molecular bonds 
+-	Agricultural sector through fertilizers 
+-	Material Simulation (electronic structure to find advanced materials) 
+-	Battery Optimization 
+-	Finance and Portfolio Management to maximize profit/wealth and minimize risk [[BCG, 2019]] (https://arxiv.org/pdf/1907.04769.pdf ) 
 
-Example: A courier has to deliver parcels to several locations and is looking to minimize its travel time. (e.g., “the travelling salesman problem”).
 
 ## Step 3: Identify at least one potential customer for this solution - ie: a business who has this problem and would consider paying to have this problem solved
 
